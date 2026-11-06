@@ -1,0 +1,19 @@
+{
+  "name": "fisiopocket-pagina-de-vendas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open /app.html",
+    "build": "vite build && node scripts/finalize-build.mjs && node scripts/make-standalone.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
